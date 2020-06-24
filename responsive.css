@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width : 480px ){
+	body{
+		max-width:480px;
+		padding: auto;
+		margin: auto;
+	}
+	.menu-list{
+		width:100%;
+		text-align: center;
+	}
+	.menu-list li{
+	width:25%;
+}
+
+	.container{
+		max-width:375px;
+		margin: 0 auto;
+	}
+	.top-wrapper{
+		height:200px;
+	}
+	.top-text{
+		margin-top:130px;
+		line-height:10px;
+	}
+	.top-text h1{
+	font-size:50px;
+}
+	.top-text p{
+	font-size:30px;
+}
+	h2{
+	font-size:35px;
+		text-align: center;
+}
+	.profile-wrapper img{
+		display:block;
+		margin: 0 auto;
+	width:160px;
+}
+	.profile-text{
+	width:100%;
+	text-align: center;
+}
+	.profile-text li{
+		list-style:none;
+	}
+	h3{
+	font-size:25px;
+		text-align: center;
+}
+	.banner-list{
+	height:1300px;
+}
+	.banner{
+	width:100%;
+		text-align:center;
+		margin-bottom: 35px;
+}
+	.banner-list{
+	display:block;
+}
+	.web-site{
+	height:630px;
+}
+	.web-site img{
+	width:100%;
+	}
+	.web-text{
+	width:100%;
+	text-align: center;
+}
+	.sub-text{
+		line-height: 10px;
+	}
+	.skill-wrapper{
+	height:400px;
+}
+	.skill-list{
+		flex-wrap:wrap;
+	}
+	.skill-icon {
+		flex:auto;
+		width:33%;
+		text-align: center;
+	}
+	.skill-icon img{
+		width: 100px;
+	}
+	.contact{
+	height:350px;
+		text-align: center;
+}
+	.contact-text{
+	font-size:20px;
+}
+	.address{
+	font-size:20px;
+}
+}
+@media screen and (max-width: 896px) {
+	
+	body{
+		max-width:896px;
+		padding: auto;
+		margin: auto;
+	}
+		.top-wrapper{
+		height:200px;
+	}
+	.top-text{
+		margin-top:130px;
+		line-height:10px;
+	}
+	.top-text h1{
+	font-size:50px;
+}
+	.top-text p{
+	font-size:30px;
+}
+	h2{
+	font-size:35px;
+		text-align: center;
+}
+	.container{
+		max-width:800px;
+		margin: 0 auto;
+	}
+	.profile-wrapper{
+	height:350px;
+}
+	.profile-wrapper img{
+	width:160px;
+}
+	.profile-text{
+	width:600px;
+}
+	h3{
+	font-size:25px;
+		text-align: center;
+}
+	.banner-list{
+	height:500px;
+		text-align: center;
+}
+	.banner img{
+		width: 250px;
+	}
+	.web-site{
+	height:380px;
+}
+.web-site img{
+	width:380px;
+}
+	.sub-text{
+		line-height: 10px;
+	}
+	.skill-wrapper{
+	height:350px;
+}
+	.contact{
+	height:350px;
+		text-align: center;
+}
+	.contact-text{
+	font-size:20px;
+}
+	.address{
+	font-size:20px;
+}
+}
