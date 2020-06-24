@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+$ git commit -m "[Add] add images"
+	$ git push origin
 body{
 	max-width: 1024px; 
 	padding:auto;
