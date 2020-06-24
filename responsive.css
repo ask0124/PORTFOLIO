@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@media screen and (max-width: 480px){
+@media (max-width: 481px){
 	body{
 		max-width:480px;
 		padding: auto;
@@ -17,7 +17,7 @@
 }
 
 	.container{
-		max-width:375px;
+		width:375px;
 		margin: 0 auto;
 		padding: auto;
 	}
