@@ -109,8 +109,11 @@
 		margin: auto;
 	}
 	.menu-list{
-		margin: 0px;
 		line-height: 50px;
+	}
+	.menu-list li{
+		width:25%;
+		text-align: center;
 	}
 		.top-wrapper{
 		height:200px;
