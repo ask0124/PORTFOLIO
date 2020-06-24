@@ -16,14 +16,15 @@ header{
 	top:0px;
 }
 .menu-list{
-	width:50%;
+	width: 50%;
 	float:right;
-	margin-right:25px;
+	margin-right: 10%;
 }
 .menu-list li{
 	float:left;
 	list-style:none;
 	width:20%;
+	text-align: center;
 }
 .menu-list a{
 	color:rgba(143,143,143,1.00);
