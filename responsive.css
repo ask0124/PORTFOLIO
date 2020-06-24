@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-@media (max-width: 481px){
+@media (max-width: 480px){
 	body{
-		max-width:480px;
+		width:480px;
 		padding: auto;
 		margin: auto;
 	}
