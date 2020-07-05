@@ -6,6 +6,10 @@
 		padding: auto;
 		margin: auto;
 	}
+	.container{
+		max-width: 480px;
+		padding: 0;
+	}
 	.menu-list{
 		width:100%;
 		text-align: center;
@@ -48,18 +52,23 @@
 }
 	.banner{
 	width:100%;
-		text-align:center;
-		margin-bottom: 35px;
+		padding-bottom:35px;
+		margin: 0 auto;
 }
 	.banner-list{
 	display:block;
 }
+	.web-site{
+		margin: 0 auto;
+	}
 	.web-site img{
 	width:100%;
+		
 	}
 	.web-text{
 	width:100%;
 	text-align: center;
+		margin: 0;
 }
 	.sub-text{
 		line-height: 10px;
