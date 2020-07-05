@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	max-width: 1024px; 
 	padding:auto;
 	margin: auto;
 	overflow-x: hidden;
@@ -37,10 +36,8 @@ header{
 .container{
 	width:980px;
 	margin:0 auto;
+	padding: 20px;
 }
-.top-wrapper{
-	height:380px;
-	}	
 .top-text{
 	text-align: center;
 	margin-top:350px;
@@ -58,19 +55,19 @@ h2{
 	font-size:55px;
 	color:rgba(143,143,143,1.00);
 }
-.profile-wrapper{
-	height:480px;
-}
 .profile-wrapper img{
 	display:inline-block;
-	width:210px;
+	width:30%;
+	vertical-align: top;
 }
 .profile-text{
 	display:inline-block;
-	width:700px;
-	float:right;
+	width:60%;
 	color:rgba(104,104,104,1.00);
 	line-height:23px;
+}
+.profile-text li{
+	list-style:none;
 }
 .profile-text span{
 	font-weight:bold;
@@ -79,7 +76,7 @@ h2{
 	margin-top:0px;
 }
 .work-wrapper h2{
-	margin-bottom:0px;
+	margin-bottom:0;
 }
 h3{
 	font-size:35px;
@@ -88,14 +85,12 @@ h3{
 p{
 	color:rgba(104,104,104,1.00);
 }
-.banner-list{
-	height:500px;
-}
 .banner{
 	width:33%;
+	margin:10px;
 }
 .banner img{
-	margin-bottom: 10px;
+	width: 100%;
 	box-shadow: 3px 3px 10px gray;
 }
 .banner p{
@@ -106,16 +101,16 @@ p{
 .banner-list{
 	display:flex;
 }
-.web-site{
-	height:600px;
-}
 .web-site img{
-	width:570px;
+	display:inline-block;
+	width:50%;
 	box-shadow: 3px 3px 10px gray;
+	vertical-align: top;
 }
 .web-text{
-	width:395px;
-	float:right;
+	margin-left:5px;
+	display:inline-block;
+	width:45%;
 }
 .web-text a{
 	color:rgba(104,104,104,1.00);
@@ -123,23 +118,18 @@ p{
 .web-site a:hover{
 	opacity: 0.5;
 }
-.skill-wrapper{
-	height:500px;
-}
 .skill-list{
 	display:flex;
 }
 .skill-icon{
 	width:20%;
+	margin: 10px;
 }
 .skill-icon img{
-	width:150px;
-}
-.contact{
-	height:500px;
+	width:100%;
 }
 .contact-text{
-	font-size:25px;
+	font-size:20px;
 	margin: 0;
 }
 .address{
