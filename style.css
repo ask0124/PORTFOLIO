@@ -120,6 +120,9 @@ p{
 .web-site a:hover{
 	opacity: 0.5;
 }
+.web-site{
+	margin-bottom:20px;
+}
 .skill-list{
 	display:flex;
 }
