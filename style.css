@@ -18,12 +18,11 @@ header{
 .menu-list{
 	width: 50%;
 	float:right;
-	margin-right: 10%;
 }
 .menu-list li{
-	float:left;
 	list-style:none;
-	width:20%;
+	float:left;
+	width:25%;
 	text-align: center;
 }
 .menu-list a{
@@ -34,7 +33,7 @@ header{
 	opacity: 0.5;
 }
 .container{
-	width:980px;
+	max-width:980px;
 	margin:0 auto;
 	padding: 20px;
 }
