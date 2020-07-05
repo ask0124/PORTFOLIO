@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+html{
+	overflow-x: hidden;
+}
 body{
 	padding:auto;
 	margin: auto;
@@ -126,6 +129,9 @@ p{
 }
 .skill-icon img{
 	width:100%;
+}
+.contact{
+	margin-bottom: 50px;
 }
 .contact-text{
 	font-size:20px;
