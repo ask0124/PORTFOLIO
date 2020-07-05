@@ -56,8 +56,8 @@
 		margin: 0;
 }
 	.banner img{
-		margin: 0;
-		padding: 0;
+		text-align: center;
+	}
 	}
 	.banner p{
 		text-align: center;
