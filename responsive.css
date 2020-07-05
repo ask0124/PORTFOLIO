@@ -53,8 +53,11 @@
 	.banner{
 	width:100%;
 		padding-bottom:35px;
-		margin: 0 auto;
+		margin: 0;
 }
+	.banner p{
+		text-align: center;
+	}
 	.banner-list{
 	display:block;
 }
