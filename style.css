@@ -35,11 +35,12 @@ header{
 .container{
 	max-width:980px;
 	margin:0 auto;
-	padding: 20px;
+	padding:100px 20px;
 }
 .top-text{
 	text-align: center;
-	margin-top:350px;
+	margin-top:250px;
+	margin-bottom:150px;
 	line-height:35px;
 }
 .top-text h1{
